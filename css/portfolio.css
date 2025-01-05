@@ -111,12 +111,53 @@ a{
 }
 
 .projectLink a{
-    color: black;
+    color: #0071bc;
 
 }
 
 .projectLink a:hover{
     text-decoration: underline;
+}
+
+#certificates{
+    padding: 5%;
+    overflow: hidden;
+    
+}
+
+#certificatesMainTitle{
+    color: #0071bc;
+    margin-bottom: 60px;
+}
+
+.certificateName{
+    color: #0071bc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.certificateName:hover{
+    text-decoration: underline;
+}
+
+.certificateImg{
+    width: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+}
+#certificatesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate{
+    width: 70%;
+    position: relative;
+    
 }
 
 

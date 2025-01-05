@@ -10,7 +10,7 @@
             sections: ["ACERCA DE MI", "LENGUAJES Y TECNOLOGIAS","MIS PROYECTOS", "CERTIFICACIONES", "CONTACTO"],
             abtMe: "¡Hola!, soy un estudiante de Ingenieria de Sistemas de 6to semestre en la universidad NUR en Santa Cruz, Bolivia. Actualmente estoy enfocado en aprender y mejorar en el campo de Desarrollo Web Full Stack. Tengo experiencia desarrollando aplicaciones web fullstack de muestra que funcionan con bases de datos PostgreSQL. Se me da bien aprender nuevas tecnologias, la comunicacion con los clientes y el trabajo en equipo.",
             tecnologies: ["Javascript/NodeJs", "Express", "HTML/CSS", "PostgreSQL", "MySQL","Git/Github", "VirtualBox", "Java"],
-            tecnologiesText: "Lenguajes de programacion y tecnologias en los que tengo experiencia",
+            tecnologiesText: "Lenguajes de programacion y tecnologias en los que tengo experiencia.",
             projectsTitle: "MIS PROYECTOS",
             projects: [
                 {title: "Titan Ironworks E-commerce", descr: "Sitio web de una empresa ficticia que vende equipamiento de gimnasio, cuenta con el frontend hecho con html y css puro, ademas del backend hecho con node y express, se conecta con una base de datos PostgreSQL y usa el patron de diseno repository. El proyecto aun no esta terminado. El codigo esta en el link abajo: ", link: null}, 
@@ -19,7 +19,8 @@
             certificates: [
                 {title: "Intrduccion a la Ciberseguridad", link: null}, 
                 {title: "Introduccion a la Ingenieria de Software", link: null}],
-            certificatesTitle: "CERTIFICACIONES"
+            certificatesTitle: "CERTIFICACIONES",
+            contactTitle:"CONTACTO"
 
         }
     }
@@ -47,7 +48,8 @@
             
             ],
             certificatesTitle: "CERTIFICATIONS",
-            certificates: [{title: "Introduction to CyberSecurity", link: null}, {title: "Introduction to Software Engineering", link: null}]
+            certificates: [{title: "Introduction to CyberSecurity", link: null}, {title: "Introduction to Software Engineering", link: null}],
+            contactTitle:"CONTACT ME"
             
         }
     }
@@ -87,8 +89,19 @@
             <p class="projectLink"><a href="${e.link||"#"}">${e.link? link : "Link not available"}</a></p>
         </div>`;
     });
-
     projectsDiv.innerHTML=projectsHtml;
+
+    document.querySelector('#certificatesMainTitle').innerHTML=info.certificatesTitle;
+    const certificatesDiv = document.querySelector('#certificatesContainer');
+    let certificatesHtml ='';
+    info.certificates.forEach(e => {
+        certificatesHtml+= `<div class="certificate">
+            <img src="img/certificate.jpg" alt="imagen de muestra" class="certificateImg">
+            <h2><a href=${e.link || "#"} class="certificateName">${e.title}</a></h2>
+        </div>`;
+    });
+    certificatesDiv.innerHTML=certificatesHtml;
+
     
 
 
