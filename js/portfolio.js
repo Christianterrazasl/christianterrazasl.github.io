@@ -103,7 +103,7 @@
     certificatesDiv.innerHTML=certificatesHtml;
 
     
-
+    document.querySelector('#contactMainTitle').innerHTML=info.contactTitle;
 
     
 

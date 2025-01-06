@@ -63,7 +63,7 @@ a{
     justify-content: space-evenly;
     padding: 5%;
     background-color: whitesmoke;
-    /*background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));*/
+    background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
 
 }
 
@@ -92,7 +92,7 @@ a{
 #projects{
     background-color: whitesmoke;
     padding: 5%;
-    
+    background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
 }
 
 #projectsContainer{
@@ -149,23 +149,114 @@ a{
 }
 #certificatesContainer{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .certificate{
-    width: 70%;
+    width: 25%;
     position: relative;
     
 }
 
 
+#contact{
+    background-color: #0071bc;
+    color: white;
+    padding: 5%;
+    background-image: radial-gradient(circle at 57% 36%, rgba(0,113,188, 0.38) 0%, rgba(0,113,188, 0.38) 10%,transparent 10%, transparent 100%),radial-gradient(circle at 22% 61%, rgba(0,113,188, 0.38) 0%, rgba(0,113,188, 0.38) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 68% 97%, rgba(0,113,188, 0.38) 0%, rgba(0,113,188, 0.38) 41%,transparent 41%, transparent 100%),radial-gradient(circle at 57% 89%, rgba(0,113,188, 0.38) 0%, rgba(0,113,188, 0.38) 30%,transparent 30%, transparent 100%),radial-gradient(circle at 39% 80%, rgba(0,113,188, 0.38) 0%, rgba(0,113,188, 0.38) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 88% 71%, rgba(0,113,188, 0.38) 0%, rgba(0,113,188, 0.38) 30%,transparent 30%, transparent 100%),linear-gradient(0deg, rgba(0,108,187, 0.92),rgba(0,108,187, 0.92));
+}
 
+.contactItem{
+    margin: 2%;
+
+}
 
 @media (width < 1024px){
     body{
         font-size: 1rem;
     }
+}
+
+@media (width < 710px){
+    #headerBottomLine{
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+        
+    }
+
+    #abtMe{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5%;
+        background-color: whitesmoke;
+        background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+        flex-direction: column-reverse;
+    }
+
+    #abtMeImg{
+        width: 80%;
+        border-radius: 50%;
+        margin: 10px;
+        margin-top: 50px;
+    }
+    
+    #abtMeP{
+        text-align: center;
+        width: 80%;
+    }
+    #languages{
+        padding: 8%;
+        color: #0071bc;
+    }
+
+    #languagesList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projectsContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .project{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 4%;
+        width: 80%;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.322);
+        
+    }
+
+    .certificateImg{
+        width: 100%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+    }
+    #certificatesContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .certificate{
+        width: 80%;
+        position: relative;
+        
+    }
+
 }
 
