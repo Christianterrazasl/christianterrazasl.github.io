@@ -1,0 +1,37 @@
+{
+    "btnCambiarIdioma": "Change Language",
+    "mainTitle" : "CHRISTIAN TERRAZAS - SOFTWARE DEVELOPER",
+    "sections": ["ABOUT ME", "SKILLS AND TECHNOLOGIES","MY PROJECTS", "CERTIFICATIONS", "CONTACT ME"],
+    "abtMe": "Hi!, I’m a Software Engineering student at NUR University in Santa Cruz, Bolivia. I’m currently focused on learning and building Full Stack Web Development projects. I have experience developing test fullStack web apps. I excel at acquiring new skills, learning modern technologies, and comunicating with clients.",
+    "tecnologies": ["Javascript/NodeJs", "Express", "HTML/CSS", "PostgreSQL", "MySQL","Git/Github", "VirtualBox", "Java"],
+    "tecnologiesText": "Programming languages and technologies that I have experience working with.",
+    "projectsTitle": "MY PROJECTS",
+    "projects": [
+        {
+        "title": "Titan Ironworks E-commerce", 
+        "descr": "A Full Stack Website for a fictional e-commerce brand named Titan Ironworks. The front end was built using pure HTML, CSS, and JavaScript, while the back end runs on Node.js and Express. The application uses a PostgreSQL database to process and store data. Link:",
+        "link": "https://github.com/Christianterrazasl/TiendaWeb"
+        },
+        {
+        "title": "Web Portfolio",
+        "descr": "This dynamic web portfolio updates its content based on the user’s selected language using JavaScript. A simple yet useful little project. Link:", 
+        "link": "https://github.com/Christianterrazasl/Portafolio"
+        }
+    
+    ],
+    "certificatesTitle": "CERTIFICATIONS",
+    "certificates": [
+        {"title": "Introduction to CyberSecurity", "link": "https://coursera.org/share/023f4b4ced8dead234efe3a2f8f651f4"}, 
+        {"title": "Introduction to Software Engineering", "link": "https://coursera.org/share/f6d7f808bcd0448b5b714db96ab3a227"},
+        {"title": "Javascript programming essentials", "link": "https://coursera.org/share/3fdd980145ce54de0f34c1dab3e5768e"},
+        {"title": "Introduction to html, css and javascript", "link":"https://coursera.org/share/eca47f22f7b2a0dc39fd6be8b40da4e7"},
+        {"title": "Git and github", "link": "https://coursera.org/share/14d03726550f89e694abd1f8403ef4cc"},
+        {"title": "Programming analist (NUR University certificate)", "link":""}
+
+
+
+    
+    ],
+    "contactTitle":"CONTACT ME"
+    
+}
