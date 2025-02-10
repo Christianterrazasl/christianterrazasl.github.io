@@ -11,12 +11,12 @@
         {"title": "Portafolio Web", "descr": "Es el proyecto que estas viendo ahora mismo, cambia de idioma a eleccion del usuario y recuerda el idioma seleccionado la proxima que entres. Solo frontend con html, css y javascript usando localstorage. El link al codigo esta abajo: ", "link": "https://github.com/Christianterrazasl/Portafolio"}],
 
     "certificates": [
+        {"title": "Analista programador (Universidad NUR)", "link":"https://github.com/Christianterrazasl/Portafolio/blob/main/img/certificadoNurAnalistaProgramador.jpg"},
         {"title": "Intrduccion a la Ciberseguridad", "link": "https://coursera.org/share/023f4b4ced8dead234efe3a2f8f651f4"}, 
         {"title": "Introduccion a la Ingenieria de Software", "link": "https://coursera.org/share/f6d7f808bcd0448b5b714db96ab3a227"},
         {"title": "Programacion con Javascript", "link": "https://coursera.org/share/3fdd980145ce54de0f34c1dab3e5768e"},
         {"title": "Introduccion a html, css y javascript", "link":"https://coursera.org/share/eca47f22f7b2a0dc39fd6be8b40da4e7"},
-        {"title": "Git y github", "link": "https://coursera.org/share/14d03726550f89e694abd1f8403ef4cc"},
-        {"title": "Analista programador (Universidad NUR)", "link":""}
+        {"title": "Git y github", "link": "https://coursera.org/share/14d03726550f89e694abd1f8403ef4cc"}
         
         
     

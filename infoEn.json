@@ -21,12 +21,12 @@
     ],
     "certificatesTitle": "CERTIFICATIONS",
     "certificates": [
+        {"title": "Programming analist (NUR University certificate)", "link":"https://github.com/Christianterrazasl/Portafolio/blob/main/img/certificadoNurAnalistaProgramador.jpg"},
         {"title": "Introduction to CyberSecurity", "link": "https://coursera.org/share/023f4b4ced8dead234efe3a2f8f651f4"}, 
         {"title": "Introduction to Software Engineering", "link": "https://coursera.org/share/f6d7f808bcd0448b5b714db96ab3a227"},
         {"title": "Javascript programming essentials", "link": "https://coursera.org/share/3fdd980145ce54de0f34c1dab3e5768e"},
         {"title": "Introduction to html, css and javascript", "link":"https://coursera.org/share/eca47f22f7b2a0dc39fd6be8b40da4e7"},
-        {"title": "Git and github", "link": "https://coursera.org/share/14d03726550f89e694abd1f8403ef4cc"},
-        {"title": "Programming analist (NUR University certificate)", "link":""}
+        {"title": "Git and github", "link": "https://coursera.org/share/14d03726550f89e694abd1f8403ef4cc"}
 
 
 
