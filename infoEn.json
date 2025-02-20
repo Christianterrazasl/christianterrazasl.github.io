@@ -16,7 +16,8 @@
         "title": "Web Portfolio",
         "descr": "This dynamic web portfolio updates its content based on the user’s selected language using JavaScript. A simple yet useful little project. Link:", 
         "link": "https://github.com/Christianterrazasl/Portafolio"
-        }
+        },
+        {"title": "React e-commerce front-end", "descr": "E-commerce front-end page, made while learning react, using useContext hook to manage a shopping cart feature.", "link": "https://github.com/Christianterrazasl/reactStoreFrontend"}
     
     ],
     "certificatesTitle": "CERTIFICATIONS",
